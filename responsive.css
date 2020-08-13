@@ -1,0 +1,92 @@
+@media all and (max-width: 1000px) {
+    .products {
+        flex-wrap: wrap;
+    }
+
+    .product {
+        flex: auto;
+        width: 50%;
+        padding-bottom: 40px;
+      }
+
+        
+    .top-wrapper h1 {
+      font-size: 32px;
+    }
+    
+    .heading h2 {
+      font-size: 20px;
+    }
+
+    .header-right {
+      display: none;
+    }
+
+    .barbars {
+      display: block;
+      opacity: 1;
+    }
+
+    .abouttitle {
+      background-color: white;
+    }
+
+    .about-text p {
+      background-color: white;
+    }
+
+    .icon-bar {
+      display: none;
+    }
+
+}
+
+@media all and (max-width: 670px) {
+    
+    .products {
+      flex-direction: column;
+    }
+    
+    
+    .product {
+      margin: auto;
+      text-align: center;
+      padding-bottom: 50px;
+    }
+    
+    footer {
+      text-align: center;
+    }
+
+
+    .btn {
+      width: 100%;
+    }
+
+
+    .about-text p {
+      width: 400px;
+    }
+
+    .top-wrapper h1 {
+      font-size: 24px;
+      line-height: 36px;
+    }
+    
+    .top-wrapper p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+
+}
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #1E3888, 0 0 40px #1E3888, 0 0 50px #1E3888, 0 0 60px #1E3888, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #47A8BD, 0 0 40px #47A8BD, 0 0 50px #47A8BD, 0 0 60px #47A8BD, 0 0 70px #47A8BD, 0 0 80px #ff4da6;
+    }
+}
+
